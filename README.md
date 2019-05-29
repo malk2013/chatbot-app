@@ -34,3 +34,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 # Help 
 ## https://www.youtube.com/watch?v=YaN0b4_vD_U
+https://github.com/cornflourblue/react-redux-jwt-authentication-example/tree/master/src

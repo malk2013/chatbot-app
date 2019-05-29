@@ -1,9 +1,16 @@
-import styled from 'styled-components';
-
-export default styled.div`
-  grid-column: 3;
-  grid-row: 2;
-  text-align:justified;
-  border-style: solid;
-  border-size: 1px;
-`;
+import React from 'react';
+import Widget from './Widget';
+export default ()=>(
+    <div className="main-content">
+    <div className="title">
+        Analytics
+        </div>
+    <div className='ad'>
+        <div className="close">
+            <i className="ion-ios-close-empty"></i>
+        </div>
+        <Widget title="likes"></Widget>
+    </div>
+    
+</div>
+)
